@@ -1,0 +1,8 @@
+//read the image 
+img = imread("mandril_gray.tif");
+
+// pass the img variable to Deinterlacer function
+output = Deinterlacer(img, "Linear interpolation");
+
+// show the output image
+imshow(output)

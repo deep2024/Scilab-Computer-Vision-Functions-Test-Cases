@@ -1,0 +1,8 @@
+//read the image 
+img = imread("lena_gray_256.tif");
+
+// pass the img variable to Deinterlacer function
+output = Deinterlacer(img, "Linear interpolation", "Vertical temporal median filtering");
+
+	!--error 77 
+opencv_Deinterlacer: Wrong number of input argument(s): 1 to 2 expected

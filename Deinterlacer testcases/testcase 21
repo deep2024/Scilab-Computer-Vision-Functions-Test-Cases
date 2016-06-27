@@ -1,0 +1,9 @@
+//read the image 
+img = imread("lena_gray_256.tif");
+
+// pass the img variable to Deinterlacer function
+output = Deinterlacer(img, "Vertical");
+
+	!--error 99 
+Wrong method specified, use Linear interpolation or Vertical temporal median filtering or Line repetition as method name 
+ 

@@ -1,0 +1,8 @@
+//read the image 
+img = imread("mandril_color.tif");
+
+// pass the img variable to Deinterlacer function
+output = Deinterlacer(img, "Vertical temporal median filtering");
+
+// show the output image
+imshow(output)
