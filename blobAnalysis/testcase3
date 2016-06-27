@@ -1,0 +1,10 @@
+//read the image
+img = imread("blob_detection.jpg");
+
+// pass the image to open_blobAnalysis
+output = blobAnalysis(img, "filterByCircularity", [0.001 0.6])
+
+output = 
+	
+	Points: [2x2 constant]
+   	Size: [2x1 constant]

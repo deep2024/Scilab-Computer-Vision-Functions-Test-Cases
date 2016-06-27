@@ -1,0 +1,38 @@
+//read the image
+img = imread("blob_detection.jpg");
+
+// pass the image to open_blobAnalysis
+output = blobAnalysis(img)
+
+	Points: [23x2 constant]
+   	Size: [23x1 constant] 
+
+// to get the size of blobs
+	size = output.Size
+	
+	size = 
+	4.5276928  
+    6.94D-310  
+    0.         
+    0.         
+    261.5      
+    106.91572  
+    7.5124581  
+    0.9600205  
+    261.39965  
+    106.9609   
+    14.946433  
+    0.1968560  
+    261.40464  
+    107.0083   
+    15.126159  
+    0.2020020  
+    261.43277  
+    106.97058  
+    15.133685  
+    0.2044678  
+    261.46228  
+    106.93034  
+    15.141422 
+ 
+    

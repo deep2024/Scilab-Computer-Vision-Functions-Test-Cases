@@ -1,0 +1,11 @@
+//read the image
+img = imread('afreightim015.png');
+
+// pass the image to open_blobAnalysis
+output = blobAnalysis(img,filterByArea, [0.01 10])
+           !--error 4 
+Undefined variable: filterByArea		//the method is string so should by specified as "filterByArea", with quotes
+
+
+
+

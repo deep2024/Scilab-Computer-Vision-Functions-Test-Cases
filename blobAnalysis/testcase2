@@ -1,0 +1,11 @@
+//read the image
+img = imread("blob_detection.jpg");
+
+// pass the image to open_blobAnalysis
+output = blobAnalysis(img, "filterByArea", [10 100])
+
+output = 
+	
+	Points: [14x2 constant]
+   	Size: [14x1 constant]
+    

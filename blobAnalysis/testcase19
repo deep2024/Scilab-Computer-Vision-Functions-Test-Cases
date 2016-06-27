@@ -1,0 +1,12 @@
+//read the image
+img = imread('peppers_color.tif');
+
+// pass the image to open_blobAnalysis
+output = blobAnalysis(a, "filterByArea", [2 3], [89 900], "filterbyThreshold")
+ 
+ 	!--error 10000 
+argument at position 4 must be string
+
+
+
+

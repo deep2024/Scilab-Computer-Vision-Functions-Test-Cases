@@ -1,0 +1,10 @@
+//read the image
+img = imread("blob_detection.jpg");
+
+// pass the image to open_blobAnalysis
+output = blobAnalysis(img, "filterByConvexity", [0.5 0.8])
+
+output = 
+	
+	Points: [5x2 constant]
+   	Size: [5x1 constant]

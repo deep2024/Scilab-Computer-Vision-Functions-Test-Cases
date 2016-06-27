@@ -1,0 +1,12 @@
+//read the image
+img = imread('peppers_color.tif');
+
+// pass the image to open_blobAnalysis
+output = blobAnalysis(img)
+
+output = 
+	
+	Points: [332.90088,280.52823]	//only one blob detected
+   Size: 3.6007683
+
+

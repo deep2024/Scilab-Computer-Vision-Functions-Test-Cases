@@ -1,0 +1,11 @@
+//read the image
+img = imread("blob_detection.jpg");
+
+// pass the image to open_blobAnalysis
+output = blobAnalysis(img, "filterByThreshold", [1 100])
+
+output = 
+	
+	Points: [9x2 constant]
+   	Size: [9x1 constant]
+ 

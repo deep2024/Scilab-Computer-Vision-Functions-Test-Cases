@@ -1,0 +1,11 @@
+//read the image
+img = imread('peppers_color.tif');
+
+// pass the image to open_blobAnalysis
+output = blobAnalysis(img, "filterByArea", [2 3], "filterByArea", [100 200])
+
+	!--error 999 
+Please provide optional arguments only once.
+
+
+

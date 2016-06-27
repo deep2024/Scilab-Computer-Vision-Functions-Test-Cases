@@ -1,0 +1,12 @@
+//read the image
+img = imread("lena.jpeg");
+
+// pass the image to open_blobAnalysis
+output = blobAnalysis(img)
+
+output = 
+	
+	Points: [0x0 constant]
+   	Size: [0x0 constant]
+
+
